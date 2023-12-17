@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 const pack = new URL(location).searchParams.get("pack") ?? "dokucraft"
-const source = "https://raw.githubusercontent.com/ewanhowell5195/classic.minecraft.net-resourcepacks"
+const source = "https://raw.githubusercontent.com/penpen-uwu/classic.minecraft.net-resourcepacks/"
 
 class newImage extends Image {
   set src(value) {
